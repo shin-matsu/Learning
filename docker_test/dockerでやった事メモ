@@ -1,0 +1,160 @@
+□Dockeとは
+　・オープンソースのコンテナ管理ソフトウェア
+　　→コンテナ型の仮装化環境を提供
+　　　→パソコンの中に仮想パソコンを起動するイメージ
+　・Go言語で書かれている
+　・ホストOSのカーネルを共有するため動作が軽量(少ないコンピュータリソースで動作)
+　　→ホストOSのカーネルが共有できないOSはコンテナも動作できない
+　・OSを複数のサーバが共通して利用しているため、軽量で高速に起動・停止などができる
+　・AWS上でも使える
+　　→具体的に何ができるのかは要調査
+　・実行環境の共有が容易
+　　→複数人でアプリ開発を行う時に便利。開発環境は別々でも実行環境は揃えられる
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+
+Dockerのバージョン確認
+$ docker -v
+-------
+Docker version 18.09.2, build 6247962
+
+
+現在ローカルにあるイメージの確認
+$ docker images
+-------
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+docker/nginx        test                b8c734cdea44        23 hours ago        465MB
+centos              latest              9f38484d220f        2 weeks ago         202MB
+hello-world         latest              fce289e99eb9        3 months ago        1.84kB
+python              3.6                 d49c41b6e6c4        8 months ago        918MB
+
+
+webサーバーであるnginxの公式イメージをpull（=持ってくる）
+$ docker pull nginx:latest
+-------
+latest: Pulling from library/nginx
+27833a3ba0a5: Pull complete
+e83729dd399a: Pull complete
+ebc6a67df66d: Pull complete
+Digest: sha256:c8a861b8a1eeef6d48955a6c6d5dff8e2580f13ff4d0f549e082e7c82a8617a2
+Status: Downloaded newer image for nginx:latest
+
+
+
+コンテナ生成
+$ docker run -d -p 8080:80 --name test nginx
+-------
+4c83bf6a612fd672570e98086166f80edf120bffc6253125b215667c04577d76
+
+
+起動中のコンテナ確認
+$ Docker ps
+-------
+CONTAINER ID      IMAGE      COMMAND                  CREATED              STATUS              PORTS                  NAMES
+4c83bf6a612f      nginx      "nginx -g 'daemon of…"   About a minute ago   Up About a minute   0.0.0.0:8080->80/tcp   test
+
+
+全てのコンテナを確認（起動していないものも含めて）
+$ docker ps -a
+------
+CONTAINER ID      IMAGE               COMMAND                  CREATED             STATUS                        PORTS                  NAMES
+4c83bf6a612f      nginx               "nginx -g 'daemon of…"   3 minutes ago       Up 3 minutes                  0.0.0.0:8080->80/tcp   test
+d1e60dcb60c2      docker/nginx:test   "/usr/sbin/nginx -g …"   24 hours ago        Exited (255) 25 minutes ago   0.0.0.0:80->80/tcp     hello_world
+
+
+コンテナ停止（コンテナを削除するには停止が必要）
+$ docker stop 4c83bf6a612f
+------
+4c83bf6a612f
+
+
+コンテナ削除
+$ docker rm 4c83bf6a612f
+-------
+4c83bf6a612f
+
+
+コンテナが削除されていることを確認(CONTAINER ID：4c83bf6a612f が消えている)
+docker ps -a
+-------
+CONTAINER ID     IMAGE               COMMAND                  CREATED             STATUS                        PORTS                NAMES
+d1e60dcb60c2     docker/nginx:test   "/usr/sbin/nginx -g …"   24 hours ago        Exited (255) 39 minutes ago   0.0.0.0:80->80/tcp   hello_world
+
+
+現在ローカルにあるイメージの確認(削除前の確認)
+$ docker images
+-------
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+docker/nginx        test                b8c734cdea44        24 hours ago        465MB
+nginx               latest              2bcb04bdb83f        6 days ago          109MB
+centos              latest              9f38484d220f        2 weeks ago         202MB
+hello-world         latest              fce289e99eb9        3 months ago        1.84kB
+python              3.6                 d49c41b6e6c4        8 months ago        918MB
+
+
+イメージの削除
+$ docker rmi 2bcb04bdb83f
+--------
+Untagged: nginx:latest
+Untagged: nginx@sha256:c8a861b8a1eeef6d48955a6c6d5dff8e2580f13ff4d0f549e082e7c82a8617a2
+Deleted: sha256:2bcb04bdb83f7c5dc30f0edaca1609a716bda1c7d2244d4f5fbbdfef33da366c
+Deleted: sha256:dfce9ec5eeabad339cf90fce93b20f179926d5819359141e49e0006a52c066ca
+Deleted: sha256:166d13b0f0cb542034a2aef1c034ee2271e1d6aaee4490f749e72d1c04449c5b
+Deleted: sha256:5dacd731af1b0386ead06c8b1feff9f65d9e0bdfec032d2cd0bc03690698feda
+
+
+現在ローカルにあるイメージの確認(IMAGE ID：2bcb04bdb83f が消えている)
+$ docker images
+-------
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+docker/nginx        test                b8c734cdea44        24 hours ago        465MB
+centos              latest              9f38484d220f        2 weeks ago         202MB
+hello-world         latest              fce289e99eb9        3 months ago        1.84kB
+python              3.6                 d49c41b6e6c4        8 months ago        918MB
+
+
+Dockerfileをbuildして、イメージを作成(Dockerfileについては一緒に上げてあるDockerfileを確認)
+$ docker build -t docker/nginx:test .
+--------
+※上記コマンドの実行結果は長いためここでは最後の部分を抜粋
+
+Complete!
+Removing intermediate container a7bdf9fe5c88
+ ---> c943e97259fa
+Step 5/6 : ADD index.html /usr/share/nginx/html/
+ ---> b05958ff64c3
+Step 6/6 : ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;", "-c", "/etc/nginx/nginx.conf"]
+ ---> Running in a0410d740861
+Removing intermediate container a0410d740861
+ ---> 863afa25e9bc
+Successfully built 863afa25e9bc
+Successfully tagged docker/nginx:test
+
+
+
+現在ローカルにあるイメージの確認（docker/nginx、centosがあればOK）
+$ docker images
+------
+REPOSITORY          TAG                 IMAGE ID            CREATED              SIZE
+docker/nginx        test                863afa25e9bc        About a minute ago   465MB
+centos              latest              9f38484d220f        2 weeks ago          202MB
+hello-world         latest              fce289e99eb9        3 months ago         1.84kB
+python              3.6                 d49c41b6e6c4        8 months ago         918MB
+
+
+buildしたイメージからコンテナを生成
+$ docker run -d -p 80:80 --name hello_world docker/nginx:test
+------
+39705a265f72959edffc6eec6ecab3540dcb7cf6b0b430dc1adc057daaaadb2c
+
+
+
+起動中のコンテナを確認 (http://localhost にアクセスするとindex.htmlの内容が表示される)
+$ docker ps
+-----
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
+39705a265f72        docker/nginx:test   "/usr/sbin/nginx -g …"   56 seconds ago      Up 54 seconds       0.0.0.0:80->80/tcp   hello_world
