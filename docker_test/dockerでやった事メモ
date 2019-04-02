@@ -158,3 +158,6 @@ $ docker ps
 -----
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
 39705a265f72        docker/nginx:test   "/usr/sbin/nginx -g …"   56 seconds ago      Up 54 seconds       0.0.0.0:80->80/tcp   hello_world
+
+
+参考文献：https://qiita.com/bremen/items/4604f530fe25786240db
