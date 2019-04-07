@@ -17,7 +17,7 @@ image_size = 50                         #計算時間短縮のためサイズを
 #メインの関数を定義
 def main():
     #ファイルからデータを配列に読み込む
-    X_train, X_test, y_train, y_test = np.load("./animal.npy")
+    X_train, X_test, y_train, y_test = np.load("./animal_aug.npy")
     #256階調の整数値を正規化して０〜１（ニューラルネットワークで計算する場合に誤差が出にくい）
     X_train = X_train.astype("float") / 256
     X_test = X_test.astype("float") / 256
@@ -75,7 +75,7 @@ def model_train(X, y):
 
     model.fit(X, y, batch_size=32, epochs=100)
 
-    model.save('./animal_cnn.h5')
+    model.save('./animal_cnn_aug.h5')
 
     return model
 
