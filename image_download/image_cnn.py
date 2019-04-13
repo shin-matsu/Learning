@@ -19,10 +19,11 @@ def main():
     #ファイルからデータを配列に読み込む
     X_train, X_test, y_train, y_test = np.load("./animal.npy")
     #256階調の整数値を正規化して０〜１（ニューラルネットワークで計算する場合に誤差が出にくい）
+    #astype型に変換することで計算できる
     X_train = X_train.astype("float") / 256
     X_test = X_test.astype("float") / 256
-    #one-hot-vector:正解値は１、他は０の行列に変換
-    #[0,1,2]を[1,0,0][0,1,0][0,0,1]に変換
+    #to_categorical:正解値は１、他は０の行列に変換 (one-hot-vector)
+    #ターゲットが１の場合[1,0,0]、２の場合[0,1,0]、３の場合[0,0,1]に変換
     y_train = np_utils.to_categorical(y_train, num_classes)
     y_test = np_utils.to_categorical(y_test, num_classes)
 
@@ -82,7 +83,9 @@ def model_train(X, y):
 def model_eval(model, X, y):
     #評価の処理　結果をscoresへ。　verbose＝１は途中経過を表示する
     scores = model.evaluate(X, y, verbose=1)
+    #損失値
     print('Test Loss: ', scores[0])
+    #精度
     print('Test Accuracy: ', scores[1])
 
 #このプログラムが直接呼ばれた時だけmain()実行
