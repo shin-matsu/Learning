@@ -3,6 +3,7 @@ import sys
 import cv2
 import pyocr
 import pyocr.builders
+import numpy as np
 
 #利用可能なツールのリストを取得
 tools = pyocr.get_available_tools()
@@ -26,9 +27,14 @@ print("-------------------")
 langs = tool.get_available_languages()
 print("利用可能な言語: %s" % ", ".join(langs))
 
-#img_src = cv2.imread("./" + input_image, 1)
-#input_image = cv2.cvtColor(img_src, cv2.COLOR_BGR2GRAY)
+img_src = cv2.imread("./" + input_image, 1)
+input_image = cv2.cvtColor(img_src, cv2.COLOR_BGR2GRAY)
+#cv2.imwrite('./grayscale.jpg', input_image)
+#input_image = 'grayscale.jpg'
 
+print( input_image.dtype )
+
+#文字読み込み
 txt = tool.image_to_string(
     Image.open(input_image),
     lang="jpn",
@@ -36,17 +42,20 @@ txt = tool.image_to_string(
 )
 print( txt )
 
+#
 res = tool.image_to_string(
     Image.open(input_image),
     lang="jpn",
-    builder=pyocr.builders.WordBoxBuilder(tesseract_layout=6)
+    builder=pyocr.builders.LineBoxBuilder(tesseract_layout=6)
 )
+#print( res )
 
+#文字として認識した場所を矩型で表示
 out = cv2.imread(input_image)
 for d in res:
-    print(d.content)
-    print(d.position)
-    cv2.rectangle(out, d.position[0], d.position[1], (0, 0, 255), 2)
+    #print(d.content)
+    #print(d.position)
+    cv2.rectangle(out, d.position[0], d.position[1], (0, 255, 0), 2)
 
 cv2.imshow("img",out)
 cv2.waitKey(0)
