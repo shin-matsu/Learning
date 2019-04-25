@@ -27,16 +27,24 @@ print("-------------------")
 langs = tool.get_available_languages()
 print("利用可能な言語: %s" % ", ".join(langs))
 
-img_src = cv2.imread("./" + input_image, 1)
-input_image = cv2.cvtColor(img_src, cv2.COLOR_BGR2GRAY)
+#img_src = cv2.imread("./" + input_image, 1)
+#input_image = cv2.cvtColor(img_src, cv2.COLOR_BGR2GRAY)
 #cv2.imwrite('./grayscale.jpg', input_image)
 #input_image = 'grayscale.jpg'
 
-print( input_image.dtype )
+
+open_image = Image.open(input_image)
+
+# グレースケール変換関数
+def ConversionGrayScale(img):
+    gray_img = img.convert('L')
+    return gray_img
+
+grayscale_image = ConversionGrayScale(open_image)
 
 #文字読み込み
 txt = tool.image_to_string(
-    Image.open(input_image),
+    grayscale_image,
     lang="jpn",
     builder=pyocr.builders.TextBuilder(tesseract_layout=6)
 )
@@ -44,7 +52,7 @@ print( txt )
 
 #
 res = tool.image_to_string(
-    Image.open(input_image),
+    grayscale_image,
     lang="jpn",
     builder=pyocr.builders.LineBoxBuilder(tesseract_layout=6)
 )
