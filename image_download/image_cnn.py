@@ -49,7 +49,8 @@ def model_train(X, y):
     #Dropoutで２５％を捨ててデータの偏りを減らす
     model.add(Dropout(0.25))
 
-
+    # 64：出力フィルタの数
+    # (3,3)：カーネルのサイズ
     model.add(Conv2D(64,(3,3), padding='same'))
     model.add(Activation('relu'))
     model.add(Conv2D(64,(3,3)))
