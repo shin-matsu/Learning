@@ -35,13 +35,19 @@ def main():
 def model_train(X, y):
     #
     model = Sequential()
+    #一層目の定義
     #ニューラルネットワークの層を足すadd
-    #conv2Dのクラスで32個のフィルターの3*3、
-    #paddingで畳み込み結果が同じサイズになるようにピクセルを左右に足す
-    #input_shapeで入力データの形状を指定
+    #第１引数：出力フィルターの数。conv2Dのクラスで32個のフィルターを指定
+    #第２引数：フィルタのサイズ。大きさは3*3、
+    #第３引数：paddingで畳み込み結果が同じサイズになるようにピクセルを左右に足すための'same'
+    #　→ぜろパディング：計算の回数が増える事により、データの橋の特徴も抽出できる
+    #第４引数：input_shapeで入力データの形状を指定
+    #　→画像が450枚、行数が50、列数が50、チャンネルが3（RGB）の配列の形状から、「50,50,3」を抜き出す
     model.add(Conv2D(32,(3,3), padding='same',input_shape=X.shape[1:]))
     #活性化関数　正を通して負のところは０というレイヤーを足す
     model.add(Activation('relu'))
+
+    # 2層目の定義
     model.add(Conv2D(32,(3,3)))
     model.add(Activation('relu'))
     #プーリングの値の一番大きいものを取り出す
@@ -49,7 +55,7 @@ def model_train(X, y):
     #Dropoutで２５％を捨ててデータの偏りを減らす
     model.add(Dropout(0.25))
 
-    # 64：出力フィルタの数
+    # 64：使用する出力フィルタの数
     # (3,3)：カーネルのサイズ
     model.add(Conv2D(64,(3,3), padding='same'))
     model.add(Activation('relu'))
@@ -64,12 +70,12 @@ def model_train(X, y):
     model.add(Dense(512))
     model.add(Activation('relu'))
     model.add(Dropout(0.5))
-    #最後の出力層のノードは３つ
+    #最後の出力層のノードは３つ（クラスの数）
     model.add(Dense(3))
     #それぞれの画像と一致してる確率を足し混むと１になる
     model.add(Activation('softmax'))
 
-    #トレーニング時の更新アルゴリズム
+    #トレーニング時の更新アルゴリズム（最適化の手法）
     opt = keras.optimizers.rmsprop(lr=0.0001, decay=1e-6)
     #モデルの最適化　loss:損失関数（正解と推定値との誤差）　metrics(正答率)
     model.compile(loss='categorical_crossentropy',

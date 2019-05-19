@@ -21,7 +21,7 @@ for index, classlabel in enumerate(classes):                 #クラスを順番
         if i >= 200: break                              #200回を超えたら処理しない
         image = Image.open(file)                        #ファイルを開く
         image = image.convert("RGB")                    #ファイルを赤青緑に変換
-        image = image.resize((image_size, image_size))  #画像のサイズを揃える
+        image = image.resize((image_size, image_size))  #画像のサイズを揃える（ここでは50x50）
         data = np.asarray(image)                        #イメージを数字の配列に変換して入れる
         X.append(data)                                  #Xの最後尾に追加
         Y.append(index)                                 #Yの最後尾に追加
