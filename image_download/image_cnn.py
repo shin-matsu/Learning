@@ -79,9 +79,12 @@ def model_train(X, y):
     #最後の出力層のノードは３つ（クラスの数）
     model.add(Dense(3))
     #それぞれの画像と一致してる確率を足し混むと１になる
+    #→確率として解釈可能
     model.add(Activation('softmax'))
 
     #トレーニング時の更新アルゴリズム（最適化の手法）
+    # lr:0以上の浮動小数点数．学習率(1回の学習で、どれだけ学習すべきかを決めると率)
+    # decay:0以上の浮動小数点数．各更新の学習率減衰（最初は"大きく”、次第に"小さく"学習する手法）
     opt = keras.optimizers.rmsprop(lr=0.0001, decay=1e-6)
     #モデルの最適化　loss:損失関数（正解と推定値との誤差）　metrics(正答率)
     model.compile(loss='categorical_crossentropy',
