@@ -1,0 +1,532 @@
+
+デフォルト	20:16:00.352239 +0900	locationd	{"msg":"CLWifi1SystemLogic::apply", "event":"elapsed", "begin_mach":8022949103674, "end_mach":8022949164954, "elapsed_s":"0.002553333", "event":"Motion::CoarseMovement", "now_s":"580562160.347908020"}
+デフォルト	20:16:00.500389 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:00.500594 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:00.500748 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:00.500930 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:00.501105 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:00.511219 +0900	CommCenter	QMI: Svc=0x03(NAS) Ind MsgId=0x0051 Bin=['01 34 00 80 03 04 04 C0 60 51 00 28 00 14 06 00 CF F9 B5 FF 06 01 A2 01 00 64 A4 18 00 02 64 00 01 9C 00 00 00 8B 03 00 00 00 00 00 00 E7 00 00 00 B5 FF FF FF']
+デフォルト	20:16:00.511559 +0900	CommCenter	Sent notification to 0 (of 70) clients: <private>
+デフォルト	20:16:01.124113 +0900	mediaserverd	<<<< TimeSyncClock >>>> figTimeSyncClock_Monitor: nowMonClock: 334290.316305; lastMonClock: 334280.325366; nowMonNet: 334290.316 (0x6d4d7329ceb10000); lastMonNet: 334280.325 (0x6d4d7329ceb10000); nowMonRef: 334290.316; lasMontRef: 334280.325; lastSynthAnchor: 334290.316; lastGM: 0x6d4d7329ceb10000; offset 0.000; lastRefTimelineAnchor: 334290.316
+デフォルト	20:16:01.227388 +0900	CommCenter	#I update
+デフォルト	20:16:01.227587 +0900	CommCenter	QMI: Svc=0x03(NAS) Req MsgId=0x006c Bin=[<private>]
+デフォルト	20:16:01.248296 +0900	CommCenter	QMI: Svc=0x03(NAS) Resp MsgId=0x006c Bin=[<private>]
+デフォルト	20:16:01.248808 +0900	CommCenter	#I sendNewThresholds: Updated thresholds
+デフォルト	20:16:01.250210 +0900	CommCenter	QMI: Svc=0x03(NAS) Req MsgId=0x004f Bin=[<private>]
+デフォルト	20:16:01.267950 +0900	CommCenter	QMI: Svc=0x03(NAS) Resp MsgId=0x004f Bin=[<private>]
+デフォルト	20:16:01.317409 +0900	locationd	{"msg":"CLWifi1SystemLogic::apply", "event":"elapsed", "begin_mach":8022972284130, "end_mach":8022972329650, "elapsed_s":"0.001896667", "event":"Motion::CoarseMovement", "now_s":"580562161.312327981"}
+デフォルト	20:16:01.431967 +0900	symptomsd	L2 Metrics on ifname en0: rssi: -63 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+デフォルト	20:16:01.676053 +0900	backboardd	ALS: Set minimum restriction 2.114286 for E=69.000000
+デフォルト	20:16:01.804623 +0900	backboardd	0x1000004c6: set report interval:5000 client:<private>
+デフォルト	20:16:01.810212 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:01.811728 +0900	SpringBoard	{"msg":"CLGyroBiasEstimatorClientRemote::registerWithGyroBiasEstimatorPrivate", "event":"activity", "isBuildingGYTT":0, "client":"0x2823d0ac0", "info":"0x105317890"}
+デフォルト	20:16:01.812760 +0900	SpringBoard	{"msg":"CLGyroBiasEstimatorClientRemote::onWatchdogTimerExpiry", "event":"activity", "client":"0x2823d0ac0"}
+デフォルト	20:16:01.813064 +0900	SpringBoard	{"msg":"Sending cached messages to daemon", "event":"activity"}
+デフォルト	20:16:01.814175 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10a67baf0", "property":"lifecycle", "old":"0x0", "new":"0x10a67baf0"}
+デフォルト	20:16:01.814788 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10a67baf0", "property":"clientName", "old":"", "new":"com.apple.springboard"}
+デフォルト	20:16:01.816255 +0900	locationd	#Warning PAUSE: BATCH: '<private>' (<private>, <private>) started in unexpected state: <private>
+デフォルト	20:16:01.816405 +0900	locationd	Client com.apple.springboard connected
+デフォルト	20:16:01.821539 +0900	locationd	{"msg":"kCLConnectionMessageGyroBiasEstimation", "event":"activity", "this":"0x10a67baf0", "registrationRequired":0, "registrationReceived":0}
+デフォルト	20:16:01.821886 +0900	locationd	Client com.apple.springboard (0x10a67baf0) is subscribing to notification kCLConnectionMessageGyroBiasEstimation
+デフォルト	20:16:01.822818 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,1,BuildingGYTT,0,NumClients,1
+デフォルト	20:16:01.883492 +0900	backboardd	touch up event count:2 starting 12.8146s ago lastPID:55 lastContextID:EE5C4CD0
+デフォルト	20:16:02.079088 +0900	backboardd	0x1000004c6: set report interval:1000000 client:<private>
+デフォルト	20:16:02.084157 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:02.272241 +0900	locationd	{"msg":"CLWifi1SystemLogic::apply", "event":"elapsed", "begin_mach":8022995153816, "end_mach":8022995229218, "elapsed_s":"0.003141750", "event":"Motion::CoarseMovement", "now_s":"580562162.266361952"}
+デフォルト	20:16:02.282730 +0900	backboardd	[HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x63 _childEventMask=0x43 Cancel=0 Touching=1 inRange=1
+デフォルト	20:16:02.284585 +0900	com.apple.accessibility.AccessibilityUIServer	ITIdleTimerState - Adding IdleTimer disable assertion for reason: Accessibility-304173C1-55E7-43D6-8549-05855C628DFA.
+デフォルト	20:16:02.287695 +0900	SpringBoard	[SBIdleTimerGlobalCoordinator - disableIdleTimerForClient:com.apple.accessibility.AccessibilityUIServer forReason:Accessibility-304173C1-55E7-43D6-8549-05855C628DFA]
+デフォルト	20:16:02.287990 +0900	SpringBoard	SBIdleTimerGlobalCoordinator - Idle timer disable assertion: Disabling idle timer for reason: Accessibility-304173C1-55E7-43D6-8549-05855C628DFA
+デフォルト	20:16:02.290138 +0900	backboardd	                   Scheduler.m:172 :  334291.48266:  Info: 0 clients: (
+)
+デフォルト	20:16:02.290873 +0900	com.apple.accessibility.AccessibilityUIServer	ITIdleTimerState - Removing IdleTimer disable assertion for reason: Accessibility-304173C1-55E7-43D6-8549-05855C628DFA.
+デフォルト	20:16:02.291285 +0900	SpringBoard	SBIdleTimerGlobalCoordinator - _setIdleTimerWithDescriptor:<SBIdleTimerDescriptor: 0x282d563d0; timerMode: Disabled; quickUnwarnInterval: 0.0s> reason:"Accessibility-304173C1-55E7-43D6-8549-05855C628DFA"]
+デフォルト	20:16:02.292659 +0900	SpringBoard	attention client SUSPEND <AWAttentionAwarenessConfiguration: 0x28013c280> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts:      42.00000,      40.00000,      60.00000 mask Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50687 (tag 50687))
+デフォルト	20:16:02.292972 +0900	SpringBoard	SBIdleTimerGlobalCoordinator - Idle timer disable assertion: Reenabling idle timer as last disable assertion removed for reason: Accessibility-304173C1-55E7-43D6-8549-05855C628DFA
+デフォルト	20:16:02.293536 +0900	SpringBoard	SBIdleTimerGlobalCoordinator - _setIdleTimerWithDescriptor:<SBIdleTimerDescriptor: 0x282d919b0; timerMode: Automatic; sampleInterval: 4.0s; quickUnwarnInterval: 42.0s; warnInterval: 40.0s; totalInterval: 60.0s> reason:"Accessibility-304173C1-55E7-43D6-8549-05855C628DFA"]
+デフォルト	20:16:02.294945 +0900	backboardd	                RemoteClient.m:292 :  334291.48422:  Info: reset attention lost timeout for com.apple.springboard.GlobalBacklightIdleTimer at  334291.48400
+デフォルト	20:16:02.295190 +0900	backboardd	                   Scheduler.m:141 :  334291.48435:  Info: 1 clients: (
+    "<AWRemoteClient: 0x100c86f20> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts: 40, 42, 60 mask AttentionLost|Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50687)"
+)
+エラー	20:16:02.295377 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:02.296176 +0900	backboardd	                RemoteClient.m:292 :  334291.48533:  Info: reset attention lost timeout for com.apple.springboard.GlobalBacklightIdleTimer at  334291.48533
+デフォルト	20:16:02.296594 +0900	SpringBoard	0x28015d900 reconfigured sample delay: 24
+デフォルト	20:16:02.296850 +0900	SpringBoard	0x28015d900 reconfigured attention timeouts:{
+    42 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: quickWarn";
+    40 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: warn";
+    60 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: expiration";
+}, configuration generation: 50688
+デフォルト	20:16:02.296958 +0900	SpringBoard	attention client RESUME <AWAttentionAwarenessConfiguration: 0x28013c280> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts:      42.00000,      40.00000,      60.00000 mask Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50687 (tag 50687))
+デフォルト	20:16:02.297358 +0900	backboardd	                RemoteClient.m:178 :  334291.48562:  Info: updated config <AWRemoteClient: 0x100c86f20> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts: 40, 42, 60 mask AttentionLost|Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50688), old config <AWRemoteClient: 0x100c86f20> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts: 40, 42, 60 mask AttentionLost|Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50687)
+デフォルト	20:16:02.297877 +0900	SpringBoard	setting configuration:<AWAttentionAwarenessConfiguration: 0x2801f0050> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts:      42.00000,      40.00000,      60.00000 mask Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50688 (tag 50688))
+エラー	20:16:02.305353 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:02.306125 +0900	SpringBoard	immediate edge swipe: failed
+デフォルト	20:16:02.307838 +0900	SpringBoard	Icon touch began: <private>
+デフォルト	20:16:02.309241 +0900	SpringBoard	Found a reasonable launch image for <private>, not pre-warming SplashBoard. Load image into the snapshot instance.
+エラー	20:16:02.310694 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:02.312633 +0900	backboardd	0x1000004c6: set report interval:5000 client:<private>
+デフォルト	20:16:02.313513 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+エラー	20:16:02.317846 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+エラー	20:16:02.320264 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+エラー	20:16:02.327810 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+エラー	20:16:02.339497 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+エラー	20:16:02.385993 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+エラー	20:16:02.394301 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:02.398751 +0900	backboardd	[HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x42 _childEventMask=0x42 Cancel=0 Touching=0 inRange=1
+デフォルト	20:16:02.399458 +0900	SpringBoard	0x106096c00: _appIconForceTouchGestureRecognizerShouldBegin: YES
+エラー	20:16:02.408224 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:02.408817 +0900	SpringBoard	Icon tapped: <private>
+エラー	20:16:02.413030 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:02.414103 +0900	trustd	cert[0]: SubjectCommonName =(leaf)[]> 0
+デフォルト	20:16:02.414291 +0900	trustd	cert[0]: LeafMarkerOid =(leaf)[]> 0
+デフォルト	20:16:02.426266 +0900	aggregated	{"msg":"CLCopyAppsUsingLocation", "event":"activity"}
+デフォルト	20:16:02.426713 +0900	trustd	cert[0]: IssuerCommonName =(path)[]> 0
+デフォルト	20:16:02.427175 +0900	SpringBoard	Trust evaluate failure: [leaf IssuerCommonName LeafMarkerOid SubjectCommonName]
+デフォルト	20:16:02.429298 +0900	SpringBoard	Activating <private> from icon
+デフォルト	20:16:02.429954 +0900	SpringBoard	Executing request: <SBMainWorkspaceTransitionRequest: 0x280cd2b80; eventLabel: SBUIApplicationIconLaunchEventLabel; display: Main; source: HomeScreen>
+デフォルト	20:16:02.435188 +0900	trustd	cert[0]: SubjectCommonName =(leaf)[]> 0
+デフォルト	20:16:02.435349 +0900	trustd	cert[0]: LeafMarkerOid =(leaf)[]> 0
+デフォルト	20:16:02.442958 +0900	trustd	cert[0]: IssuerCommonName =(path)[]> 0
+デフォルト	20:16:02.443551 +0900	SpringBoard	Trust evaluate failure: [leaf IssuerCommonName LeafMarkerOid SubjectCommonName]
+デフォルト	20:16:02.457050 +0900	SpringBoard	Added: <FBUIApplicationSceneDeactivationAssertion: 0x282c44900; reason: systemAnimation; all scene levels; hasPredicate: NO>
+デフォルト	20:16:02.457911 +0900	backboardd	Setting minimum brightness level:0 with fade duration 0.4
+デフォルト	20:16:02.457981 +0900	backboardd	setting CoreBrightness property:DisplayBrightnessFadePeriod to value:0.4
+デフォルト	20:16:02.458422 +0900	backboardd	setting CoreBrightness property:BrightnessMinPhysicalWithFade to value:0
+デフォルト	20:16:02.458734 +0900	backboardd	soft cancel on display:<main>
+デフォルト	20:16:02.463602 +0900	SpringBoard	Deactivating wallpaper orientation source ActiveOrientation
+デフォルト	20:16:02.464075 +0900	SpringBoard	Added: <FBUIApplicationSceneDeactivationAssertion: 0x282e8d620; reason: systemAnimation; all scene levels; hasPredicate: NO>
+デフォルト	20:16:02.467019 +0900	SpringBoard	Disabling home screen icon rotation for reason: SBAppToAppWorkspaceTransaction
+デフォルト	20:16:02.473555 +0900	CommCenter	#I FBSDisplayLayoutUpdateHandler: update start
+デフォルト	20:16:02.473884 +0900	CommCenter	#I FBSDisplayLayoutUpdateHandler: app <private> (UIApplicationElement 1 hasKeyboardFocus 0)
+デフォルト	20:16:02.474232 +0900	assertiond	Created BKApplicationStateServerClient for [79:<private>] -> <private>
+デフォルト	20:16:02.474434 +0900	CommCenter	#I FBSDisplayLayoutUpdateHandler: 4. app got notification state: pid=0 for <private>
+デフォルト	20:16:02.474727 +0900	sharingd	SystemUI changed: 0x10 -> 0x0
+デフォルト	20:16:02.476201 +0900	dasd	Trigger: <private> is now [<private>]
+デフォルト	20:16:02.476252 +0900	dasd	Foreground app changed—-<private>
+デフォルト	20:16:02.480261 +0900	SpringBoard	adding status bar settings assertion: <SBAppStatusBarSettingsAssertion: 0x2830b8c90> {
+    settings = <SBAppStatusBarSettings: 0x28203b600; alpha: 0.000000; style: 0x0; legibilitySettings: 0x0; styleOverridesToCancel: 0>;
+    level = app switcher;
+    reason = App Switcher Visible;
+}
+デフォルト	20:16:02.482669 +0900	SpringBoard	Push: <SBMainSwitcherWindow: 0x105273650>
+デフォルト	20:16:02.482737 +0900	SpringBoard	Evaluate: making new window key: <SBMainSwitcherWindow: 0x105273650>, for reason: push
+デフォルト	20:16:02.483026 +0900	locationd	Recording parameters: localize: <private>, record: <private>
+デフォルト	20:16:02.483080 +0900	SpringBoard	Removed: <FBUIApplicationSceneDeactivationAssertion: 0x282c44900; reason: systemAnimation; all scene levels; hasPredicate: NO>
+デフォルト	20:16:02.485869 +0900	locationd	Recording is blacked out
+デフォルト	20:16:02.486468 +0900	SpringBoard	Bootstrapping jp.learningdesign1.ClassifyAI with intent foreground-interactive
+デフォルト	20:16:02.486817 +0900	assertiond	Removed BKApplicationStateServerClient for [79:<private>] -> <private>
+デフォルト	20:16:02.486964 +0900	assertiond	Submitting new job for "jp.learningdesign1.ClassifyAI" on behalf of <BKProcess: 0x145102d70; SpringBoard; com.apple.springboard; pid: 55; agency: SystemShell; visibility: foreground; task: running>
+デフォルト	20:16:02.487198 +0900	symptomsd	route source 0x129f7ffe0 description callback has snapshot <private>
+デフォルト	20:16:02.487794 +0900	SpringBoard	Icon touch canceled (tap gesture may still succeed): <private>
+デフォルト	20:16:02.488341 +0900	assertiond	Submitted job with label: UIKitApplication:jp.learningdesign1.ClassifyAI[0x71f2][65]
+デフォルト	20:16:02.488700 +0900	symptomsd	progress on pdp_ip0 for <private>: deltaBytesIn: 80.000000
+デフォルト	20:16:02.488874 +0900	symptomsd	route source 0x129d249f0 description callback has snapshot <private>
+デフォルト	20:16:02.489616 +0900	symptomsd	progress on en0 for <private>: deltaBytesIn: 406100.000000
+デフォルト	20:16:02.489736 +0900	symptomsd	defusing ticker tickerFatal having seen route progress since Sun May 26 20:16:02 2019
+デフォルト	20:16:02.495015 +0900	trustd	cert[0]: SubjectCommonName =(leaf)[]> 0
+デフォルト	20:16:02.495234 +0900	trustd	cert[0]: LeafMarkerOid =(leaf)[]> 0
+デフォルト	20:16:02.503014 +0900	trustd	cert[0]: IssuerCommonName =(path)[]> 0
+デフォルト	20:16:02.503888 +0900	amfid	Trust evaluate failure: [leaf IssuerCommonName LeafMarkerOid SubjectCommonName]
+デフォルト	20:16:02.505353 +0900	amfid	taking platform fast path for key: re6Zb+zwFKJNlkQTUeT+/w
+デフォルト	20:16:02.506653 +0900	amfid	/private/var/containers/Bundle/Application/D0F2565F-FE24-42A0-B895-08CDC67D71DA/ClassifyAI.app/ClassifyAI not valid: 0xe8008015: A valid provisioning profile for this executable was not found.
+デフォルト	20:16:02.506688 +0900	kernel	AMFI: code signature validation failed.
+エラー	20:16:02.506817 +0900	assertiond	Unable to obtain a task name port right for pid 9231: (os/kern) failure (0x5)
+エラー	20:16:02.507050 +0900	assertiond	Failed to start job with error <NSError: 0x145200300; domain: NSPOSIXErrorDomain; code: 3; reason: "The process failed to exec"> {
+    description = "Unable to get valid task name port right for pid 9231";
+    failureReason = "The process failed to exec";
+    recoverySuggestion = "Consult /var/log/com.apple.xpc.launchd/launchd.log for more information";
+}
+デフォルト	20:16:02.507370 +0900	assertiond	Deleted job with label: UIKitApplication:jp.learningdesign1.ClassifyAI[0x71f2][65]
+エラー	20:16:02.507832 +0900	SpringBoard	[jp.learningdesign1.ClassifyAI] Bootstrap failed with error: <NSError: 0x2830fb120; domain: BKSProcessErrorDomain; code: 1 (bootstrap-failed); reason: "Failed to start job">
+エラー	20:16:02.507999 +0900	SpringBoard	Bootstrapping failed for <FBApplicationProcess: 0x10e1592d0; jp.learningdesign1.ClassifyAI; pid: -1> with error: Error Domain=BKSProcessErrorDomain Code=1 "Unable to bootstrap process with bundleID jp.learningdesign1.ClassifyAI" UserInfo={NSLocalizedDescription=Unable to bootstrap process with bundleID jp.learningdesign1.ClassifyAI, BKSProcessExitReason=0, NSLocalizedFailureReason=Failed to start job, NSUnderlyingError=0x2830f8b40 {Error Domain=NSPOSIXErrorDomain Code=3 "No such process" UserInfo={NSLocalizedFailureReason=The process failed to exec, NSLocalizedRecoverySuggestion=Consult /var/log/com.apple.xpc.launchd/launchd.log for more information, NSLocalizedDescription=Unable to get valid task name port right for pid 9231}}, BSErrorCodeDescription=bootstrap-failed}
+デフォルト	20:16:02.508062 +0900	SpringBoard	Adding: <FBApplicationProcess: 0x10e1592d0; jp.learningdesign1.ClassifyAI; pid: -1>
+デフォルト	20:16:02.508189 +0900	SpringBoard	<FBApplicationProcess: 0x10e1592d0; jp.learningdesign1.ClassifyAI; pid: -1> exited.
+デフォルト	20:16:02.508248 +0900	SpringBoard	Removing: <FBApplicationProcess: 0x10e1592d0; jp.learningdesign1.ClassifyAI; pid: -1>
+デフォルト	20:16:02.515382 +0900	SpringBoard	Application process state changed for jp.learningdesign1.ClassifyAI: <SBApplicationProcessState: 0x2823c15a0; pid: -1; taskState: Not Running; visibility: Unknown>
+デフォルト	20:16:02.515582 +0900	SpringBoard	Process exited: <FBApplicationProcess: 0x10e1592d0; jp.learningdesign1.ClassifyAI; pid: -1> -> <FBApplicationProcessExitContext: 0x2830fd560; exitReason: (none); terminationReason: (none)> {
+    stateAtExit = <FBProcessState: 0x2822347e0; pid: -1; taskState: Unknown; visibility: Unknown>;
+}
+デフォルト	20:16:02.515725 +0900	SpringBoard	reconfigured lock button: <SBMutableHardwareButtonGestureParameters: 0x283887dc0; maximumPressCount: 2; longPressTimeInterval: 0.40s; multiplePressTimeInterval: 0.40s>
+デフォルト	20:16:02.515990 +0900	SpringBoard	Application process state changed for jp.learningdesign1.ClassifyAI: (null)
+デフォルト	20:16:02.584681 +0900	locationd	{"msg":"CLWifi1SystemLogic::apply", "event":"elapsed", "begin_mach":8023002713445, "end_mach":8023002723797, "elapsed_s":"0.000431333", "event":"Motion::CoarseMovement", "now_s":"580562162.581787944"}
+デフォルト	20:16:02.777145 +0900	SpringBoard	Removed: <FBUIApplicationSceneDeactivationAssertion: 0x282e8d620; reason: systemAnimation; all scene levels; hasPredicate: NO>
+デフォルト	20:16:02.786675 +0900	locationd	{"msg":"reduceFreePages", "path":"\/var\/root\/Library\/Caches\/locationd\/sensorRecorder_encryptedC.db", "page_count":13, "freelist_count":0, "loadFactor":"1.000000"}
+デフォルト	20:16:02.787098 +0900	locationd	{"msg":"reduceFreePages", "event":"elapsed", "begin_mach":8023007586423, "end_mach":8023007596130, "elapsed_s":"0.000404458"}
+デフォルト	20:16:02.787603 +0900	locationd	#warning no watchdog event from com.apple.springboard, deleting
+デフォルト	20:16:02.787659 +0900	locationd	Client com.apple.springboard disconnected
+デフォルト	20:16:02.788278 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,1,BuildingGYTT,0,NumClients,1
+デフォルト	20:16:02.789459 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10af2d550", "property":"lifecycle", "old":"0x10af2d550", "new":"0x0"}
+デフォルト	20:16:02.790614 +0900	locationd	#warning no watchdog event from com.apple.locationd, deleting
+デフォルト	20:16:02.790669 +0900	locationd	Client com.apple.locationd disconnected
+デフォルト	20:16:02.791389 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,1,BuildingGYTT,0,NumClients,1
+デフォルト	20:16:02.792165 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10af2ccc0", "property":"lifecycle", "old":"0x10af2ccc0", "new":"0x0"}
+デフォルト	20:16:02.794575 +0900	locationd	#warning no watchdog event from /usr/sbin/wifid, deleting
+デフォルト	20:16:02.794698 +0900	locationd	Client /usr/sbin/wifid disconnected
+デフォルト	20:16:02.795882 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,1,BuildingGYTT,0,NumClients,1
+デフォルト	20:16:02.796353 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105ed5ea0", "property":"lifecycle", "old":"0x105ed5ea0", "new":"0x0"}
+デフォルト	20:16:02.796688 +0900	locationd	#warning no watchdog event from com.apple.springboard, deleting
+デフォルト	20:16:02.796765 +0900	locationd	Client com.apple.springboard disconnected
+デフォルト	20:16:02.797347 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,1,BuildingGYTT,0,NumClients,1
+デフォルト	20:16:02.797939 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10a45f840", "property":"lifecycle", "old":"0x10a45f840", "new":"0x0"}
+デフォルト	20:16:02.799048 +0900	locationd	#warning no watchdog event from /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored, deleting
+デフォルト	20:16:02.799104 +0900	locationd	Client /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored disconnected
+デフォルト	20:16:02.799697 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,1,BuildingGYTT,0,NumClients,1
+デフォルト	20:16:02.800911 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10789eec0", "property":"lifecycle", "old":"0x10789eec0", "new":"0x0"}
+デフォルト	20:16:02.805900 +0900	SpringBoard	#Warning Connection interrupted!
+デフォルト	20:16:02.806080 +0900	SpringBoard	{"msg":"CLConnection::handleInterruption", "event":"activity"}
+デフォルト	20:16:02.806290 +0900	SpringBoard	{"msg":"Sending cached messages to daemon", "event":"activity"}
+デフォルト	20:16:02.806580 +0900	wifid	#Warning Connection interrupted!
+デフォルト	20:16:02.806648 +0900	SpringBoard	#Warning Connection interrupted!
+デフォルト	20:16:02.807014 +0900	wifid	{"msg":"CLConnection::handleInterruption", "event":"activity"}
+デフォルト	20:16:02.807127 +0900	wifid	{"msg":"Sending cached messages to daemon", "event":"activity"}
+デフォルト	20:16:02.807206 +0900	SpringBoard	{"msg":"CLConnection::handleInterruption", "event":"activity"}
+デフォルト	20:16:02.807628 +0900	SpringBoard	{"msg":"Sending cached messages to daemon", "event":"activity"}
+デフォルト	20:16:02.808055 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10a45f840", "property":"lifecycle", "old":"0x0", "new":"0x10a45f840"}
+デフォルト	20:16:02.808359 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10a45f840", "property":"clientName", "old":"", "new":"com.apple.springboard"}
+デフォルト	20:16:02.808421 +0900	routined	#Warning Connection interrupted!
+デフォルト	20:16:02.808473 +0900	contextstored	#Warning Connection interrupted!
+デフォルト	20:16:02.808628 +0900	locationd	#Warning PAUSE: BATCH: '<private>' (<private>, <private>) started in unexpected state: <private>
+デフォルト	20:16:02.808724 +0900	locationd	Client com.apple.springboard connected
+デフォルト	20:16:02.808867 +0900	contextstored	{"msg":"CLConnection::handleInterruption", "event":"activity"}
+デフォルト	20:16:02.809082 +0900	routined	{"msg":"CLConnection::handleInterruption", "event":"activity"}
+デフォルト	20:16:02.809182 +0900	contextstored	{"msg":"Sending cached messages to daemon", "event":"activity"}
+デフォルト	20:16:02.809485 +0900	routined	{"msg":"Sending cached messages to daemon", "event":"activity"}
+デフォルト	20:16:02.812032 +0900	locationd	{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityUpdate", "this":"0x10a45f840", "registrationReceived":0}
+デフォルト	20:16:02.814595 +0900	locationd	Client com.apple.springboard (0x10a45f840) is subscribing to notification kCLConnectionMessageMotionActivityUpdate
+デフォルト	20:16:02.816391 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10a4b19c0", "property":"lifecycle", "old":"0x0", "new":"0x10a4b19c0"}
+デフォルト	20:16:02.816794 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10a4b19c0", "property":"clientName", "old":"", "new":"\/usr\/sbin\/wifid"}
+デフォルト	20:16:02.817949 +0900	locationd	Client /usr/sbin/wifid connected
+デフォルト	20:16:02.818451 +0900	locationd	#Error no bundle ID or bundle path found - denying /usr/sbin/wifid
+デフォルト	20:16:02.818748 +0900	locationd	#Error no bundle ID or bundle path found - denying /usr/sbin/wifid
+デフォルト	20:16:02.818937 +0900	locationd	#Error no bundle ID or bundle path found - denying /usr/sbin/wifid
+デフォルト	20:16:02.819466 +0900	locationd	#Error no bundle ID or bundle path found - enabling background indicator /usr/sbin/wifid
+デフォルト	20:16:02.819865 +0900	locationd	{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityUpdate", "this":"0x10a4b19c0", "registrationReceived":0}
+デフォルト	20:16:02.821880 +0900	locationd	Client /usr/sbin/wifid (0x10a4b19c0) is subscribing to notification kCLConnectionMessageMotionActivityUpdate
+デフォルト	20:16:02.822417 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105f94ec0", "property":"lifecycle", "old":"0x0", "new":"0x105f94ec0"}
+デフォルト	20:16:02.822786 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105f94ec0", "property":"clientName", "old":"", "new":"com.apple.springboard"}
+デフォルト	20:16:02.822929 +0900	locationd	#Warning PAUSE: BATCH: '<private>' (<private>, <private>) started in unexpected state: <private>
+デフォルト	20:16:02.823020 +0900	locationd	Client com.apple.springboard connected
+デフォルト	20:16:02.826267 +0900	locationd	{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityUpdate", "this":"0x105f94ec0", "registrationReceived":0}
+デフォルト	20:16:02.828320 +0900	locationd	Client com.apple.springboard (0x105f94ec0) is subscribing to notification kCLConnectionMessageMotionActivityUpdate
+デフォルト	20:16:02.830025 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10a46ab50", "property":"lifecycle", "old":"0x0", "new":"0x10a46ab50"}
+デフォルト	20:16:02.830581 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10a46ab50", "property":"clientName", "old":"", "new":"\/System\/Library\/PrivateFrameworks\/CoreDuetContext.framework\/Resources\/contextstored"}
+デフォルト	20:16:02.831401 +0900	locationd	Client /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored connected
+デフォルト	20:16:02.831834 +0900	locationd	#Error no bundle ID or bundle path found - denying /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+デフォルト	20:16:02.832059 +0900	locationd	#Error no bundle ID or bundle path found - denying /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+デフォルト	20:16:02.832311 +0900	locationd	#Error no bundle ID or bundle path found - denying /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+デフォルト	20:16:02.832906 +0900	locationd	#Error no bundle ID or bundle path found - enabling background indicator /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+デフォルト	20:16:02.833179 +0900	locationd	{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityUpdate", "this":"0x10a46ab50", "registrationReceived":0}
+デフォルト	20:16:02.833866 +0900	locationd	Client /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored (0x10a46ab50) is subscribing to notification kCLConnectionMessageMotionActivityUpdate
+デフォルト	20:16:02.835451 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10789eec0", "property":"lifecycle", "old":"0x0", "new":"0x10789eec0"}
+デフォルト	20:16:02.836288 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10789eec0", "property":"clientName", "old":"", "new":"com.apple.locationd"}
+デフォルト	20:16:02.837307 +0900	locationd	Client com.apple.locationd connected
+デフォルト	20:16:02.838880 +0900	locationd	{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityUpdate", "this":"0x10789eec0", "registrationReceived":0}
+デフォルト	20:16:02.839154 +0900	locationd	Client com.apple.locationd (0x10789eec0) is subscribing to notification kCLConnectionMessageMotionActivityUpdate
+デフォルト	20:16:02.869511 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:02.869613 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:02.869755 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:02.996984 +0900	backboardd	0x1000004c6: set report interval:1000000 client:<private>
+デフォルト	20:16:02.998528 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:03.067503 +0900	CommCenter	QMI: Svc=0xe2(BSP) Ind MsgId=0xe021 Bin=[<private>]
+デフォルト	20:16:03.112671 +0900	SpringBoard	SB orientation locked: NO; user lock: NO, was stale: NO, orientation: unknown (0) overrides: NO,
+デフォルト	20:16:03.120770 +0900	SpringBoard	Stopping device motion, mode=0x22
+デフォルト	20:16:03.121609 +0900	SpringBoard	{"msg":"CLGyroBiasEstimatorClientRemote::unregisterWithGyroBiasEstimatorPrivate", "event":"activity", "client":"0x2823d0ac0"}
+デフォルト	20:16:03.121810 +0900	SpringBoard	Front display did change: <SBApplication: 0x281da7b10; jp.learningdesign1.ClassifyAI>
+デフォルト	20:16:03.122641 +0900	SpringBoard	0x28015d900 reconfigured sample delay: 24
+デフォルト	20:16:03.122903 +0900	SpringBoard	0x28015d900 reconfigured attention timeouts:{
+    42 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: quickWarn";
+    40 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: warn";
+    60 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: expiration";
+}, configuration generation: 50689
+デフォルト	20:16:03.124384 +0900	SpringBoard	setting configuration:<AWAttentionAwarenessConfiguration: 0x2802b4c80> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts:      42.00000,      40.00000,      60.00000 mask Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50689 (tag 50689))
+デフォルト	20:16:03.127153 +0900	backboardd	                RemoteClient.m:292 :  334292.31694:  Info: reset attention lost timeout for com.apple.springboard.GlobalBacklightIdleTimer at  334292.31694
+デフォルト	20:16:03.129989 +0900	backboardd	0x1000004c6: set report interval:0 client:<private>
+デフォルト	20:16:03.130689 +0900	backboardd	                RemoteClient.m:178 :  334292.31715:  Info: updated config <AWRemoteClient: 0x100c86f20> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts: 40, 42, 60 mask AttentionLost|Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50689), old config <AWRemoteClient: 0x100c86f20> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts: 40, 42, 60 mask AttentionLost|Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50688)
+デフォルト	20:16:03.131727 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:03.132000 +0900	backboardd	Setting minimum brightness level:0 with fade duration 0.4
+デフォルト	20:16:03.132197 +0900	backboardd	setting CoreBrightness property:DisplayBrightnessFadePeriod to value:0.4
+デフォルト	20:16:03.133267 +0900	backboardd	setting CoreBrightness property:BrightnessMinPhysicalWithFade to value:0
+デフォルト	20:16:03.133658 +0900	SpringBoard	Deactivating wallpaper orientation source ActiveOrientation
+デフォルト	20:16:03.134062 +0900	backboardd	0x1000004cb: set report interval:0 client:<private>
+デフォルト	20:16:03.135421 +0900	backboardd	0x1000004cb: set batch interval:10000 client:<private>
+デフォルト	20:16:03.136506 +0900	locationd	#Warning Location connection invalid!
+デフォルト	20:16:03.141677 +0900	SpringBoard	Starting device motion, mode=0x22,useAccelerometer=0,useGyro=1,useCompass=0,fUseNorthRef=0,buildingGYTT=0
+デフォルト	20:16:03.142098 +0900	backboardd	0x1000004c6: set report interval:0 client:<private>
+デフォルト	20:16:03.142294 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:03.142595 +0900	backboardd	0x1000004c6: set report interval:1000000 client:<private>
+デフォルト	20:16:03.144990 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:03.145583 +0900	backboardd	0x1000004c6: set report interval:5000 client:<private>
+デフォルト	20:16:03.147560 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:03.147685 +0900	backboardd	0x1000004cb: set batch interval:20000 client:<private>
+デフォルト	20:16:03.147839 +0900	backboardd	0x1000004cb: set report interval:20000 client:<private>
+デフォルト	20:16:03.147942 +0900	SpringBoard	{"msg":"CLGyroBiasEstimatorClientRemote::registerWithGyroBiasEstimatorPrivate", "event":"activity", "isBuildingGYTT":0, "client":"0x2823d0ac0", "info":"0x105317890"}
+デフォルト	20:16:03.148024 +0900	SpringBoard	SB orientation locked: NO; user lock: NO, was stale: NO, orientation: unknown (0) overrides: NO,
+デフォルト	20:16:03.149429 +0900	backboardd	0x1000004c6: set report interval:5000 client:<private>
+デフォルト	20:16:03.149820 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:03.151129 +0900	CommCenter	#I FBSDisplayLayoutUpdateHandler: update start
+デフォルト	20:16:03.153482 +0900	CommCenter	#I ActivationObserver: notifyAboutFrontAppChange : app: <private>; pid: 0; net: 0
+デフォルト	20:16:03.153539 +0900	CommCenter	#I FBSDisplayLayoutUpdateHandler: 5. app got notification state: new counter=7941
+デフォルト	20:16:03.154326 +0900	SpringBoard	{"msg":"CLGyroBiasEstimatorClientRemote::onWatchdogTimerExpiry", "event":"activity", "client":"0x2823d0ac0"}
+デフォルト	20:16:03.154855 +0900	SpringBoard	{"msg":"Sending cached messages to daemon", "event":"activity"}
+デフォルト	20:16:03.155320 +0900	locationd	{"msg":"CLConnection::handleDisconnection", "event":"activity"}
+デフォルト	20:16:03.155435 +0900	locationd	Client com.apple.springboard disconnected
+デフォルト	20:16:03.155823 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,0
+デフォルト	20:16:03.156038 +0900	SpringBoard	removing status bar settings assertion after 0.659897 seconds: <SBAppStatusBarSettingsAssertion: 0x2830b8c90> {
+    settings = <SBAppStatusBarSettings: 0x28203b600; alpha: 0.000000; style: 0x0; legibilitySettings: 0x0; styleOverridesToCancel: 0>;
+    level = app switcher;
+    reason = App Switcher Visible;
+}
+デフォルト	20:16:03.157130 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10a67baf0", "property":"lifecycle", "old":"0x10a67baf0", "new":"0x0"}
+デフォルト	20:16:03.157635 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105fa8f30", "property":"lifecycle", "old":"0x0", "new":"0x105fa8f30"}
+デフォルト	20:16:03.158634 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105fa8f30", "property":"clientName", "old":"", "new":"com.apple.springboard"}
+デフォルト	20:16:03.159071 +0900	locationd	#Warning PAUSE: BATCH: '<private>' (<private>, <private>) started in unexpected state: <private>
+デフォルト	20:16:03.159125 +0900	locationd	Client com.apple.springboard connected
+デフォルト	20:16:03.159825 +0900	SpringBoard	Pop (wasKey=YES, reason=caller requested): <private>
+デフォルト	20:16:03.159879 +0900	SpringBoard	Evaluate: making new window key: <SBHomeScreenWindow: 0x1051756a0>, for reason: popped window was key
+デフォルト	20:16:03.160362 +0900	locationd	{"msg":"kCLConnectionMessageGyroBiasEstimation", "event":"activity", "this":"0x105fa8f30", "registrationRequired":0, "registrationReceived":0}
+デフォルト	20:16:03.160617 +0900	locationd	Client com.apple.springboard (0x105fa8f30) is subscribing to notification kCLConnectionMessageGyroBiasEstimation
+デフォルト	20:16:03.161063 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,1,BuildingGYTT,0,NumClients,1
+デフォルト	20:16:03.163438 +0900	SpringBoard	Front display did change: (null)
+デフォルト	20:16:03.163764 +0900	SpringBoard	0x28015d900 reconfigured sample delay: 24
+デフォルト	20:16:03.163871 +0900	SpringBoard	0x28015d900 reconfigured attention timeouts:{
+    42 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: quickWarn";
+    40 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: warn";
+    60 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: expiration";
+}, configuration generation: 50690
+デフォルト	20:16:03.164087 +0900	SpringBoard	setting configuration:<AWAttentionAwarenessConfiguration: 0x28028ec10> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts:      42.00000,      40.00000,      60.00000 mask Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50690 (tag 50690))
+デフォルト	20:16:03.164314 +0900	backboardd	                RemoteClient.m:292 :  334292.34410:  Info: reset attention lost timeout for com.apple.springboard.GlobalBacklightIdleTimer at  334292.34410
+デフォルト	20:16:03.164447 +0900	backboardd	                RemoteClient.m:178 :  334292.34421:  Info: updated config <AWRemoteClient: 0x100c86f20> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts: 40, 42, 60 mask AttentionLost|Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50690), old config <AWRemoteClient: 0x100c86f20> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts: 40, 42, 60 mask AttentionLost|Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50689)
+デフォルト	20:16:03.166415 +0900	sharingd	SystemUI changed: 0x0 -> 0x10
+デフォルト	20:16:03.171094 +0900	SpringBoard	Enabling home screen icon rotation for reason: SBAppToAppWorkspaceTransaction
+デフォルト	20:16:03.171147 +0900	SpringBoard	Nudging home screen window orientation because icon rotation changed.
+デフォルト	20:16:03.171566 +0900	dasd	Trigger: <private> is now []
+デフォルト	20:16:03.172131 +0900	dasd	Foreground app changed—-
+デフォルト	20:16:03.172325 +0900	CommCenter	#I SIM has not requested to be notified on entering idle screen, not processing
+デフォルト	20:16:03.225385 +0900	locationd	{"msg":"CLWifi1SystemLogic::apply", "event":"elapsed", "begin_mach":8023018090315, "end_mach":8023018099606, "elapsed_s":"0.000387125", "event":"Motion::CoarseMovement", "now_s":"580562163.222175002"}
+デフォルト	20:16:03.283838 +0900	backboardd	             EventStatistics.m:48  :  334292.48062:  Info: 22 Digitizer since  334283.95315 (Sun May 26 20:15:54 2019)
+デフォルト	20:16:03.521422 +0900	backboardd	0x1000004c6: set report interval:1000000 client:<private>
+デフォルト	20:16:03.527079 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:03.673467 +0900	backboardd	ALS: Set minimum restriction 2.142857 for E=70.000000
+デフォルト	20:16:03.766148 +0900	backboardd	0x1000004c6: set report interval:0 client:<private>
+デフォルト	20:16:03.772738 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:03.775112 +0900	SpringBoard	{"msg":"CLGyroBiasEstimatorClientRemote::unregisterWithGyroBiasEstimatorPrivate", "event":"activity", "client":"0x2823d0ac0"}
+デフォルト	20:16:03.777601 +0900	locationd	#Warning Location connection invalid!
+デフォルト	20:16:03.778154 +0900	locationd	{"msg":"CLConnection::handleDisconnection", "event":"activity"}
+デフォルト	20:16:03.778302 +0900	locationd	Client com.apple.springboard disconnected
+デフォルト	20:16:03.779041 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,0
+デフォルト	20:16:03.780715 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105fa8f30", "property":"lifecycle", "old":"0x105fa8f30", "new":"0x0"}
+デフォルト	20:16:04.657289 +0900	dasd	Attempting to suspend based on triggers: (     "com.apple.das.apppolicy.appchanged",     "com.apple.das.apppolicy.appchanged" )
+デフォルト	20:16:04.657695 +0900	dasd	Ignoring trigger com.apple.das.apppolicy.appchanged because conditions are deteriorating
+デフォルト	20:16:04.657885 +0900	dasd	Evaluating 0 activities based on triggers
+デフォルト	20:16:04.674318 +0900	backboardd	ALS: Set minimum restriction 2.171429 for E=71.000000
+デフォルト	20:16:04.777474 +0900	sharingd	Bubble enter: -39, SFBLEDevice ID ff62560c-c001-b1fd-42af-f869643a93a5, RSSI -39 (-39)T*U, Ch 37, AdvD <071c316f03>, Nm '松崎信太郎のMacBook Pro', Paired yes, Cnx no
+デフォルト	20:16:04.778176 +0900	sharingd	Distance changed: Unknown -> Immediate, SFBLEDevice ID ff62560c-c001-b1fd-42af-f869643a93a5, RSSI -39 (-39)T*I, Ch 37, AdvD <071c316f03>, Nm '松崎信太郎のMacBook Pro', Paired yes, Cnx no
+デフォルト	20:16:04.780956 +0900	rapportd	BLE device changed: SFDevice ID ff62560c-c001-b1fd-42af-f869643a93a5, IDS B01F3369, RSSI -39 (-39)*I, Nm '松崎信太郎のMacBook Pro', Md 'MacBookPro15,1', DuetSync, PairedBT, WiFiP2P, DF 0x8 < MyiCloud >
+デフォルト	20:16:04.792014 +0900	backboardd	[HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x1040063 _childEventMask=0x1040062 Cancel=0 Touching=1 inRange=1
+エラー	20:16:04.798220 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:04.814154 +0900	SpringBoard	immediate edge swipe: recognized
+エラー	20:16:04.814477 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+エラー	20:16:04.821109 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+エラー	20:16:04.828705 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:04.830581 +0900	backboardd	0x1000004c6: set report interval:5000 client:<private>
+デフォルト	20:16:04.831692 +0900	SpringBoard	Executing request: <SBMainWorkspaceTransitionRequest: 0x280c6b480; eventLabel: SBFluidSwitcherGesture; display: Main; source: SystemGesture>
+デフォルト	20:16:04.833613 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:04.834461 +0900	SpringBoard	{"msg":"CLGyroBiasEstimatorClientRemote::registerWithGyroBiasEstimatorPrivate", "event":"activity", "isBuildingGYTT":0, "client":"0x2823d0ac0", "info":"0x105317890"}
+デフォルト	20:16:04.836856 +0900	SpringBoard	Enabling global orientation lock override for reason: SBFluidSwitcherGesture, new orientation: unknown (0), forced NO
+デフォルト	20:16:04.837272 +0900	SpringBoard	SB orientation locked: YES; user lock: NO, was stale: NO, orientation: unknown (0) overrides: {(
+    SBFluidSwitcherGesture
+)},
+デフォルト	20:16:04.839446 +0900	SpringBoard	{"msg":"CLGyroBiasEstimatorClientRemote::onWatchdogTimerExpiry", "event":"activity", "client":"0x2823d0ac0"}
+エラー	20:16:04.840401 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:04.840647 +0900	SpringBoard	{"msg":"Sending cached messages to daemon", "event":"activity"}
+デフォルト	20:16:04.841066 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105fa8f30", "property":"lifecycle", "old":"0x0", "new":"0x105fa8f30"}
+デフォルト	20:16:04.842378 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105fa8f30", "property":"clientName", "old":"", "new":"com.apple.springboard"}
+デフォルト	20:16:04.842767 +0900	locationd	#Warning PAUSE: BATCH: '<private>' (<private>, <private>) started in unexpected state: <private>
+デフォルト	20:16:04.842992 +0900	locationd	Client com.apple.springboard connected
+エラー	20:16:04.845881 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:04.847099 +0900	locationd	{"msg":"kCLConnectionMessageGyroBiasEstimation", "event":"activity", "this":"0x105fa8f30", "registrationRequired":0, "registrationReceived":0}
+デフォルト	20:16:04.847330 +0900	locationd	Client com.apple.springboard (0x105fa8f30) is subscribing to notification kCLConnectionMessageGyroBiasEstimation
+デフォルト	20:16:04.847984 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,1,BuildingGYTT,0,NumClients,1
+デフォルト	20:16:04.849004 +0900	SpringBoard	Added: <FBUIApplicationSceneDeactivationAssertion: 0x282ec6cd0; reason: systemGesture; all scene levels; hasPredicate: NO>
+デフォルト	20:16:04.853248 +0900	SpringBoard	Push: <SBMainSwitcherWindow: 0x105273650>
+デフォルト	20:16:04.853305 +0900	SpringBoard	Evaluate: making new window key: <SBMainSwitcherWindow: 0x105273650>, for reason: push
+デフォルト	20:16:04.853770 +0900	backboardd	cancel clients due to system gesture stealing the touches
+デフォルト	20:16:04.855748 +0900	backboardd	cancel clients due to system gesture stealing the touches
+エラー	20:16:04.857325 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+エラー	20:16:04.869633 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+エラー	20:16:04.877395 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:04.881657 +0900	SpringBoard	Too much movement; ignoring because we're still recognizing gestures:{(
+    <SBFluidSwitcherScreenEdgePanGestureRecognizer: 0x10526c3d0 (SBGrabberTongue-edgePullGestureRecognizer-4); baseClass = UIScreenEdgePanGestureRecognizer; state = Changed; delaysTouchesBegan = YES; view = <FBSystemGestureView 0x10521d9b0>; targets= <(
+    "(action=_handlePullGesture:, target=<SBGrabberTongue 0x2806ecea0>)",
+    "(action=_systemGestureChanged:, target=<SBMainDisplaySystemGestureManager 0x2809f4620>)",
+    "(action=_externalGestureRecognizerChanged:, target=<_FBSystemGestureManager 0x2806e0de0>)"
+)>>,
+    <UIScreenEdgePanGestureRecognizer: 0x1051eaa60 (homeGrabber.edgePan); state = Changed; cancelsTouchesInView = NO; delaysTouchesEnded = NO; view = <FBSystemGestureView 0x10521d9b0>; targets= <(
+    "(action=_edgePanChanged:, target=<SBHomeGrabberRevealGesturesManager 0x283841e80>)",
+    "(action=_systemGestureChanged:, target=<SBMainDisplaySystemGestureManager 0x2809f4620>)",
+    "(action=_externalGestureRecognizerChanged:, target=<_FBSystemGestureManager 0x2806e0de0>)"
+)>>,
+    <
+デフォルト	20:16:04.881803 +0900	backboardd	Locking device orientation for lock type: (system) to: portrait (1)
+デフォルト	20:16:04.881913 +0900	SpringBoard	SB orientation lock change handler fired! is locked: YES; performed update: YES
+エラー	20:16:04.882919 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+エラー	20:16:04.887895 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:04.890823 +0900	backboardd	[HID] [MT] dispatchEvent Dispatching event with 1 children, _eventMask=0x23 _childEventMask=0x1040043 Cancel=0 Touching=0 inRange=0
+エラー	20:16:04.892134 +0900	backboardd	-[BLControl handleHIDEvent:from:]: invalid parameters
+デフォルト	20:16:04.894359 +0900	SpringBoard	SBRootFolderView initiating programmatic scroll to page zero - animated: YES
+デフォルト	20:16:04.901153 +0900	backboardd	Setting minimum brightness level:0 with fade duration 0.4
+デフォルト	20:16:04.901265 +0900	backboardd	setting CoreBrightness property:DisplayBrightnessFadePeriod to value:0.4
+デフォルト	20:16:04.902251 +0900	backboardd	setting CoreBrightness property:BrightnessMinPhysicalWithFade to value:0
+デフォルト	20:16:04.902533 +0900	SpringBoard	Deactivating wallpaper orientation source ActiveOrientation
+デフォルト	20:16:04.905267 +0900	SpringBoard	SB orientation locked: YES; user lock: NO, was stale: NO, orientation: unknown (0) overrides: {(
+    SBFluidSwitcherGesture
+)},
+デフォルト	20:16:04.905961 +0900	SpringBoard	Pop (wasKey=YES, reason=caller requested): <private>
+デフォルト	20:16:04.906022 +0900	SpringBoard	Evaluate: making new window key: <SBHomeScreenWindow: 0x1051756a0>, for reason: popped window was key
+デフォルト	20:16:04.909591 +0900	SpringBoard	Front display did change: (null)
+デフォルト	20:16:04.909780 +0900	SpringBoard	0x28015d900 reconfigured sample delay: 24
+デフォルト	20:16:04.909969 +0900	SpringBoard	0x28015d900 reconfigured attention timeouts:{
+    42 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: quickWarn";
+    40 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: warn";
+    60 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: expiration";
+}, configuration generation: 50691
+デフォルト	20:16:04.910251 +0900	SpringBoard	setting configuration:<AWAttentionAwarenessConfiguration: 0x2802b89b0> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts:      42.00000,      40.00000,      60.00000 mask Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50691 (tag 50691))
+デフォルト	20:16:04.910829 +0900	backboardd	                RemoteClient.m:292 :  334294.10065:  Info: reset attention lost timeout for com.apple.springboard.GlobalBacklightIdleTimer at  334294.10065
+デフォルト	20:16:04.910955 +0900	backboardd	                RemoteClient.m:178 :  334294.10069:  Info: updated config <AWRemoteClient: 0x100c86f20> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts: 40, 42, 60 mask AttentionLost|Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50691), old config <AWRemoteClient: 0x100c86f20> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       4.00000 samplingDelay:      24.00000 attentionLostTimeouts: 40, 42, 60 mask AttentionLost|Button|Keyboard|Digitizer|GameController|FaceDetect|MesaTouch|GenericGesture tagIndex 50690)
+デフォルト	20:16:04.915655 +0900	CommCenter	#I SIM has not requested to be notified on entering idle screen, not processing
+デフォルト	20:16:04.915882 +0900	SpringBoard	Removed: <FBUIApplicationSceneDeactivationAssertion: 0x282ec6cd0; reason: systemGesture; all scene levels; hasPredicate: NO>
+デフォルト	20:16:04.916675 +0900	SpringBoard	Disabling global orientation lock override for reason: SBFluidSwitcherGesture
+デフォルト	20:16:04.916740 +0900	SpringBoard	SB orientation locked: NO; user lock: NO, was stale: NO, orientation: unknown (0) overrides: NO,
+デフォルト	20:16:04.931398 +0900	SpringBoard	SB orientation lock change handler fired! is locked: NO; performed update: YES
+デフォルト	20:16:04.931472 +0900	backboardd	Unlocking device orientation for lock type: (user, system)
+デフォルト	20:16:04.931667 +0900	backboardd	Got cached orientation 1
+デフォルト	20:16:04.931807 +0900	backboardd	Updating device orientation from CoreMotion to: portrait (1)
+デフォルト	20:16:04.931873 +0900	backboardd	Last effective interface orientation changed to: portrait (1)
+デフォルト	20:16:05.027258 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:05.027318 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:05.027376 +0900	nsurlsessiond	Triggering periodic update to powerlog for client <private>
+デフォルト	20:16:05.425809 +0900	backboardd	0x1000004c6: set report interval:5000 client:<private>
+デフォルト	20:16:05.426662 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:05.600313 +0900	backboardd	0x1000004c6: set report interval:1000000 client:<private>
+デフォルト	20:16:05.604301 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:05.622887 +0900	backboardd	0x1000004c6: set report interval:5000 client:<private>
+デフォルト	20:16:05.624722 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:05.793334 +0900	backboardd	             EventStatistics.m:48  :  334294.98984:  Info: 24 Digitizer since  334292.48070 (Sun May 26 20:16:03 2019)
+デフォルト	20:16:05.858130 +0900	backboardd	0x1000004c6: set report interval:5000 client:<private>
+デフォルト	20:16:05.860421 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:05.910907 +0900	biometrickitd	Received orientation. (Portrait to FaceUp) Timestamp 334295.101959
+デフォルト	20:16:05.911112 +0900	backboardd	Received orientation. (Ambiguous to FaceUp) Timestamp 334295.101959
+デフォルト	20:16:05.911197 +0900	backboardd	Updating client handler: Orientation FaceUp, Callback mode: -1
+デフォルト	20:16:05.911303 +0900	backboardd	Updating device orientation from CoreMotion to: faceUp (5)
+デフォルト	20:16:05.911596 +0900	backboardd	Effective device orientation changed to: faceUp (5)
+デフォルト	20:16:05.912530 +0900	SpringBoard	Got a device orientation change, forwarding faceUp (5) to apps
+デフォルト	20:16:06.424151 +0900	assistantd	Gesture notification: 4(PreDetection), Mode:Normal, Start:Other, End:Level, HostAwake, 1, Inferred:0
+デフォルト	20:16:06.425423 +0900	biometrickitd	Gesture notification: 4(PreDetection), Mode:Normal, Start:Other, End:Level, HostAwake, 1, Inferred:0
+デフォルト	20:16:06.458981 +0900	symptomsd	L2 Metrics on ifname en0: rssi: -62 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+デフォルト	20:16:06.492477 +0900	SpringBoard	SBRootFolderView ending programmatic scroll animation
+デフォルト	20:16:06.494189 +0900	atc	<ATLegacyMessageLink: 0x139654890, wifi=0> ---> [Ping Request. id=394, Session=0, params=(null)]
+デフォルト	20:16:06.518187 +0900	backboardd	setUpdateInterval:0.1
+デフォルト	20:16:06.518446 +0900	backboardd	0x1000004cb: set report interval:100000 client:(null)
+デフォルト	20:16:07.019803 +0900	symptomsd	L2 Metrics on ifname en0: rssi: -59 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+デフォルト	20:16:07.248513 +0900	bluetoothd	ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+デフォルト	20:16:07.248646 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.248774 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.248901 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.249037 +0900	bluetoothd	Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+デフォルト	20:16:07.249232 +0900	bluetoothd	needToRestart=0
+デフォルト	20:16:07.366206 +0900	backboardd	0x1000004c6: set report interval:1000000 client:<private>
+デフォルト	20:16:07.370872 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:07.411752 +0900	sharingd	Nearby stop scanning: scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+) scan mode: 0
+デフォルト	20:16:07.414448 +0900	sharingd	Nearby start scanning with data: scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+    "FF62560C-C001-B1FD-42AF-F869643A93A5",
+    "506F03C9-8961-63D3-EA2F-3D729CDA85FC"
+) scan mode: 0
+デフォルト	20:16:07.414977 +0900	wirelessproxd	Stop scanning for process sharingd (60) with scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+) scan mode: 0
+デフォルト	20:16:07.415395 +0900	wirelessproxd	Removing scan request scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+) scan mode: 0 for client AB24F8E0-362E-41E9-8993-F6B34D437001
+デフォルト	20:16:07.415614 +0900	wirelessproxd	heySiriScanActive: NO
+デフォルト	20:16:07.415903 +0900	wirelessproxd	Passively scanning for devices of types: 15 12 13 5 7 (Window: 30/Interval: 300)
+デフォルト	20:16:07.416130 +0900	wirelessproxd	About to scan for type: 15 - rssi: -70 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+デフォルト	20:16:07.416330 +0900	wirelessproxd	About to scan for type: 12 - rssi: -90 - payload: <08000000 00000000 00000000 00000000 00000000 0000> - mask: <08000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+デフォルト	20:16:07.416619 +0900	wirelessproxd	About to scan for type: 13 - rssi: -90 - payload: <378110cc 00000000 00000000 00000000 00000000 0000> - mask: <ffffffff 00000000 00000000 00000000 00000000 0000> - peers: 2
+デフォルト	20:16:07.416827 +0900	wirelessproxd	About to scan for type: 5 - rssi: -80 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+デフォルト	20:16:07.417014 +0900	wirelessproxd	About to scan for type: 7 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+デフォルト	20:16:07.418596 +0900	wirelessproxd	Scan options changed: YES
+デフォルト	20:16:07.422804 +0900	bluetoothd	Received XPC message "CBMsgIdStopScan" from session "com.apple.wirelessproxd-central-58-0"
+デフォルト	20:16:07.423431 +0900	bluetoothd	Received 'stop scan' request from session "com.apple.wirelessproxd-central-58-0"
+デフォルト	20:16:07.423640 +0900	bluetoothd	ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+デフォルト	20:16:07.423938 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.424185 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.424472 +0900	bluetoothd	Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+デフォルト	20:16:07.424724 +0900	bluetoothd	needToRestart=1
+デフォルト	20:16:07.424969 +0900	wirelessproxd	Start scanning for process sharingd (60) with scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+    "FF62560C-C001-B1FD-42AF-F869643A93A5",
+    "506F03C9-8961-63D3-EA2F-3D729CDA85FC"
+) scan mode: 0
+デフォルト	20:16:07.425078 +0900	wirelessproxd	Adding scan request called
+デフォルト	20:16:07.425173 +0900	wirelessproxd	Adding scan request scan request of type 16, blob: <00000000 00000000 00000000 00000000 00000000 0000>, mask <00000000 00000000 00000000 00000000 00000000 0000>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+    "FF62560C-C001-B1FD-42AF-F869643A93A5",
+    "506F03C9-8961-63D3-EA2F-3D729CDA85FC"
+) scan mode: 0 for client AB24F8E0-362E-41E9-8993-F6B34D437001
+デフォルト	20:16:07.425261 +0900	wirelessproxd	heySiriScanActive: NO
+デフォルト	20:16:07.430107 +0900	backboardd	0x1000004c6: set report interval:1000000 client:<private>
+デフォルト	20:16:07.431401 +0900	wirelessproxd	Passively scanning for devices of types: 16 15 12 13 5 7 (Window: 30/Interval: 300)
+デフォルト	20:16:07.431911 +0900	wirelessproxd	About to scan for type: 16 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+デフォルト	20:16:07.432279 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:07.432545 +0900	wirelessproxd	About to scan for type: 15 - rssi: -70 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+デフォルト	20:16:07.432912 +0900	bluetoothd	Stopping scan for session "<private>" - 3 advertisements delivered
+デフォルト	20:16:07.433125 +0900	wirelessproxd	About to scan for type: 12 - rssi: -90 - payload: <08000000 00000000 00000000 00000000 00000000 0000> - mask: <08000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+デフォルト	20:16:07.433469 +0900	bluetoothd	Received XPC message "CBMsgIdScan" from session "com.apple.wirelessproxd-central-58-0"
+デフォルト	20:16:07.433682 +0900	wirelessproxd	About to scan for type: 13 - rssi: -90 - payload: <378110cc 00000000 00000000 00000000 00000000 0000> - mask: <ffffffff 00000000 00000000 00000000 00000000 0000> - peers: 2
+デフォルト	20:16:07.434142 +0900	wirelessproxd	About to scan for type: 5 - rssi: -80 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+デフォルト	20:16:07.434259 +0900	bluetoothd	Received 'start scan' request without duplicates for all UUIDs from session "com.apple.wirelessproxd-central-58-0"
+デフォルト	20:16:07.434391 +0900	wirelessproxd	About to scan for type: 7 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+デフォルト	20:16:07.434548 +0900	bluetoothd	Waiting for scan state to settle before updating scan
+デフォルト	20:16:07.437117 +0900	wirelessproxd	Scan options changed: YES
+デフォルト	20:16:07.437492 +0900	bluetoothd	Received XPC message "CBMsgIdStopScan" from session "com.apple.wirelessproxd-central-58-0"
+デフォルト	20:16:07.438079 +0900	bluetoothd	Received 'stop scan' request from session "com.apple.wirelessproxd-central-58-0"
+デフォルト	20:16:07.438341 +0900	bluetoothd	Waiting for scan state to settle before updating scan
+デフォルト	20:16:07.438443 +0900	bluetoothd	Stopping scan for session "<private>" - 0 advertisements delivered
+デフォルト	20:16:07.438620 +0900	bluetoothd	Received XPC message "CBMsgIdScan" from session "com.apple.wirelessproxd-central-58-0"
+デフォルト	20:16:07.438930 +0900	bluetoothd	Received 'start scan' request without duplicates for all UUIDs from session "com.apple.wirelessproxd-central-58-0"
+デフォルト	20:16:07.439200 +0900	bluetoothd	Waiting for scan state to settle before updating scan
+デフォルト	20:16:07.439564 +0900	bluetoothd	Scanning stopped successfully.  3 Advertising Events
+デフォルト	20:16:07.439694 +0900	bluetoothd	Trying to remove scan filters with force=NO
+デフォルト	20:16:07.440822 +0900	bluetoothd	handleScanStoppedEvent state=Idle observerState=Active
+デフォルト	20:16:07.440931 +0900	bluetoothd	ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+デフォルト	20:16:07.441001 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.441106 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.441173 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.441255 +0900	bluetoothd	Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+デフォルト	20:16:07.441415 +0900	bluetoothd	needToRestart=1
+デフォルト	20:16:07.441539 +0900	bluetoothd	Starting passive scan (300.00ms/30.00ms) with duplicate filter enabled
+デフォルト	20:16:07.447756 +0900	bluetoothd	Scanning started successfully
+デフォルト	20:16:07.447845 +0900	bluetoothd	ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+デフォルト	20:16:07.447926 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.448018 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.448085 +0900	bluetoothd	allowDups=0 agentAllowDups=0 activeScan=0
+デフォルト	20:16:07.448196 +0900	bluetoothd	Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+デフォルト	20:16:07.448249 +0900	bluetoothd	needToRestart=0
+デフォルト	20:16:07.614558 +0900	backboardd	0x1000004c6: set report interval:0 client:<private>
+デフォルト	20:16:07.615793 +0900	backboardd	0x1000004c6: set batch interval:15000 client:<private>
+デフォルト	20:16:07.616754 +0900	SpringBoard	{"msg":"CLGyroBiasEstimatorClientRemote::unregisterWithGyroBiasEstimatorPrivate", "event":"activity", "client":"0x2823d0ac0"}
+デフォルト	20:16:07.617178 +0900	locationd	#Warning Location connection invalid!
+デフォルト	20:16:07.617801 +0900	locationd	{"msg":"CLConnection::handleDisconnection", "event":"activity"}
+デフォルト	20:16:07.617940 +0900	locationd	Client com.apple.springboard disconnected
+デフォルト	20:16:07.621674 +0900	locationd	CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,0
+デフォルト	20:16:07.626256 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105fa8f30", "property":"lifecycle", "old":"0x105fa8f30", "new":"0x0"}
+デフォルト	20:16:07.629469 +0900	SpringBoard	{"msg":"CLGetStatusBarIconState", "event":"activity"}
+デフォルト	20:16:07.629906 +0900	locationd	#sbim: Location icon should now be in state 'RequestingLocationInformation'
+デフォルト	20:16:07.630256 +0900	SpringBoard	locationType changed to 1
+デフォルト	20:16:07.665130 +0900	backboardd	ALS: Set minimum restriction 2.057143 for E=67.000000
+デフォルト	20:16:07.790663 +0900	aggregated	{"msg":"CLCopyAppsUsingLocation", "event":"activity"}
+デフォルト	20:16:07.915607 +0900	backboardd	ALS: Set minimum restriction 1.914286 for E=62.000000
+デフォルト	20:16:07.997888 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10af2d550", "property":"lifecycle", "old":"0x0", "new":"0x10af2d550"}
+デフォルト	20:16:07.999156 +0900	locationd	{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x10af2d550", "property":"clientName", "old":"", "new":"com.apple.locationd"}
+デフォルト	20:16:08.001839 +0900	locationd	Client com.apple.locationd connected
+デフォルト	20:16:08.015189 +0900	locationd	{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityQuery", "this":"0x10af2d550", "registrationReceived":0}
+デフォルト	20:16:08.026492 +0900	duetexpertd	ATXUpdatePredictions: cache age 450.000000, reason 'app was launched'
+デフォルト	20:16:08.050196 +0900	locationd	{"msg":"CLWifi1SystemLogic::apply", "event":"elapsed", "begin_mach":8023133828473, "end_mach":8023133879922, "elapsed_s":"0.002143708", "event":"Motion::CoarseMovement", "now_s":"580562168.043918014"}
+デフォルト	20:16:08.190782 +0900	CommCenter	QMI: Svc=0xe2(BSP) Ind MsgId=0xe021 Bin=[<private>]
